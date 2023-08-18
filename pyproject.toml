@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pdf-table-to-json-api"
+version = "0.1.0"
+description = ""
+authors = ["liukl <1138493417@qq.com>"]
+readme = "README.md"
+packages = [{include = "pdf_table_to_json_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pdfplumber = "^0.10.2"
+pandas = "^2.0.3"
+fastapi = "^0.101.1"
+uvicorn = "^0.23.2"
+python-multipart = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
